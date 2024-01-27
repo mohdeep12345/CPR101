@@ -1,0 +1,40 @@
+TEST-1
+
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+abshfbuadsvfb32846718956861846@#$@#%$#@
+This is testing of 1 C code !!!
+Type the characer position within the string:
+239
+The character found at 23 position is '6'
+Type not empty string (q - to quit):
+
+
+*** End of Indexing Strings Demo ***
+    
+______________________________________________________
+
+TEST-2 
+
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+
+Type the character position within the string:
+
+The character found at 0 position is ' '
+Type not empty string (q - to quit):
+
+Type the character position within the string:
+
+Too big... Position reduced to max. availbale
+The character found at -1 position is '╠'
+Type not empty string (q - to quit):
+
+____________________________________________________
+
+TEST-3
+
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***

@@ -1,0 +1,3 @@
+C:\Users\mohde\Documents\SENECA COLLEGE\CPR 101\Week 9\Project1\obj\Debug\Project1.csproj.AssemblyReference.cache
+C:\Users\mohde\Documents\SENECA COLLEGE\CPR 101\Week 9\Project1\obj\Debug\Project1.csproj.SuggestedBindingRedirects.cache
+C:\Users\mohde\Documents\SENECA COLLEGE\CPR 101\Week 9\Project1\obj\Debug\Project1.csproj.CoreCompileInputs.cache

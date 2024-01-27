@@ -1,0 +1,4 @@
+﻿  Source1.c
+  Source.cpp
+x64\Debug\Source.obj : warning LNK4042: object specified more than once; extras ignored
+  Project2.vcxproj -> C:\Users\mohde\Documents\SENECA COLLEGE\CPR 101\Week 9\Project2\x64\Debug\Project2.exe

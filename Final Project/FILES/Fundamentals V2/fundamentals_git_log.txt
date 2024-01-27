@@ -1,0 +1,61 @@
+commit 75c3d069c43ec533eda74a1354256321a5907854
+Author: mohdeep <msingh820@myseneca.ca>
+Date:   Wed Aug 9 23:32:57 2023 -0600
+
+    Hi
+
+diff --git a/Fundamentals_V2_CP4P/fundamentals.c b/Fundamentals_V2_CP4P/fundamentals.c
+new file mode 165246
+index 0000000..0c56534
+--- /dev/null
++++ b/Fundamentals_V2_CP4P/fundamentals.c
+@@ -0,0 +1,43 @@
++#define _CRT_SECURE_NO_WARNINGS												//Included to overcome the scanf warnings in the code
++#include "fundamentals.h"													//Including the Header file
++
++/* Version 2 */
++
+	/* Version 2 */
++	printf("*** Start of Measuring Strings Demo ***\n");						//Statement showing the start of measuring strings
++	char buffer2[BUFFER_SIZE];													//Creating a character type array "buffer2" which can hold upto 79 characters, and 1 extra space for the null character
++	do {
++		printf("Type a string (q - to quit):\n");
++		fgets(buffer2, BUFFER_SIZE, stdin);								    	//Gets the input from the user and store it in array "buffer2"
++		buffer2[strlen(buffer2) - 1] = '\0';
++		if (strcmp(buffer2, "q") != 0)
++			printf("The length of \'%s\' is %d characters\n", buffer2, (int)strlen(buffer2));				//The length of input is printed on the screen using the function "strlen".
++	} while (strcmp(buffer2, "q") != 0);															        //A do while loop which will be executed unless and until buffer2's value is equal to "q"; if q is entered, the program will end.
++	printf("*** End of Measuring Strings Demo ***\n\n");											        //Statement printed if q is entered.
++
++}
+diff --git a/Fundamentals_V2_CP4P/fundamentals.h b/Fundamentals_V2_CP4P/fundamentals.h
+new file mode 165246
+index 0000000..6b7d181
+--- /dev/null
++++ b/Fundamentals_V2_CP4P/fundamentals.h
+@@ -0,0 +1,10 @@
++#ifndef _FUNDAMENTALS_H								//Safeguarding the header file
++#define _FUNDAMENTALS_H
++
++#include <stdio.h>									//including standard input output library.
++#include <stdlib.h>									//including standard library which has predefined functions such as atoi().
++#include <string.h>									//including the header in standard library to use string functions.
++
++void fundamentals();								//Function prototype declared here in the header file
++
++#endif
+diff --git a/Fundamentals_V2_CP4P/main.c b/Fundamentals_V2_CP4P/main.c
+new file mode 165246
+index 0000000..93053e0
+--- /dev/null
++++ b/Fundamentals_V2_CP4P/main.c
+@@ -0,0 +1,8 @@
++#include "fundamentals.h"				//Including the header file
++
++int main() {							//Main block of the program
++
++	fundamentals();						//Function call
++
++	return 0;							//Program exits with no error
++}
+\ No newline at end of file
